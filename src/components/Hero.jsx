@@ -9,7 +9,7 @@ export default function Hero() {
 
         {/* Photo Grid */}
         <div className="hero-photo-grid">
-            <img src={photoGrid}/>
+            <img src='src/images/photo-grid.png'/>
         </div>
 
         {/* Title */}
