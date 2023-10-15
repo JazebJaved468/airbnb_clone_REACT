@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     /* background-color: #f81010; */
-    
+    flex: 0 0 auto;
 
 }
 
@@ -15,23 +15,25 @@
     background-size: contain;
     padding: 10px; */
     position: relative;
+    border-radius: 14px;
+    overflow: hidden;
 }
 
 .card-image img{
     width: 100%;
 }
 
-.card-image p{
+.card-image .badge{
     width: fit-content;
     text-transform: uppercase;
     background-color: #FFFFFF;
-    padding: 5px;
+    padding: 4px 6px;
     color: #222222;
     font-size: 1em;
     font-weight: 400;
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 10px;
+    left: 10px;
 }
 
 .card-reviews{
