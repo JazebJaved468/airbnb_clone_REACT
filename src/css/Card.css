@@ -2,19 +2,37 @@
     max-width: 176px;
     display: flex;
     flex-direction: column;
+    /* background-color: #f81010; */
     
 
 }
 
 .card-image{
-    width: 100%;
+    width: 176px;
+    /* height: 235px; */
     margin-bottom: 2px;
+    /* background-image: url("../images/image1.png");
+    background-size: contain;
+    padding: 10px; */
+    position: relative;
 }
 
 .card-image img{
     width: 100%;
 }
 
+.card-image p{
+    width: fit-content;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    padding: 5px;
+    color: #222222;
+    font-size: 1em;
+    font-weight: 400;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
 
 .card-reviews{
     display: flex;

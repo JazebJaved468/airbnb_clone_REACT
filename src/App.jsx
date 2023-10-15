@@ -10,7 +10,15 @@ export default function App() {
     <div className='app-container'>
       <Navbar />
       {/* <Hero /> */}
-      <Card />
+      <Card 
+        image = 'image1.png'
+        rating = {5.0}
+        reviewsCount = {6}
+        country = 'USA'
+        title = 'Life lessons with Katie Zaferes'
+        price = {136}
+        status = 'sold out'
+      />
     </div>
   )
 }
