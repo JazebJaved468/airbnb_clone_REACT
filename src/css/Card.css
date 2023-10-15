@@ -1,0 +1,47 @@
+.card-container{
+    max-width: 176px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.card-image{
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+
+.card-reviews{
+    display: flex;
+    align-items: center;
+    color: #918E9B;
+    font-size: 1.2em;
+    font-weight: 300;
+    gap: 4px;
+    margin-bottom: 4px;
+}
+.card-reviews span{
+    color: #222222;
+}
+
+.card-title{
+    color: #222222;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+.card-rate{
+    color: #222222;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.card-rate span{
+font-weight: 600;
+}
