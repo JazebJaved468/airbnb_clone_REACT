@@ -9,7 +9,7 @@ export default function Hero() {
 
         {/* Photo Grid */}
         <div className="hero-photo-grid">
-            <img src={require('src/images/photo-grid.png')}/>
+            <img src={photoGrid}/>
         </div>
 
         {/* Title */}

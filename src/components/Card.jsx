@@ -2,7 +2,9 @@ import React from "react";
 import "../css/Card.css";
 import star from "../images/star.png";
 import dot from "../images/dot.svg";
-import image from "../images/image1.png";
+import image1 from "../images/image1.png";
+import image2 from "../images/image2.png";
+import image3 from "../images/image3.png";
 
 export default function Card(props) {
 
@@ -19,13 +21,24 @@ export default function Card(props) {
     badgeText = "";
   }
 
+  let image = "";
+  if (props.item.coverImg === "image1.png") {
+    image = image1;
+  }
+  else if (props.item.coverImg === "image2.png") {
+    image = image2;
+  }
+  else {
+    image = image3;
+  }
+
 
   return (
     <>
       <div className="card-container">
         {/* Image */}
         <div className="card-image">
-          <img src= {`src/images/${props.item.coverImg}`} />
+          <img src= {image} />
           {badgeText && <p className="badge">{badgeText}</p>}
         </div>
 
